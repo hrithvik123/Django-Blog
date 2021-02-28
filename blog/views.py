@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from .models import Post #import database from models file.
 
-#let's see how gits going
 # Create your views here.
 def home(request):
     #context dictionary to pass as arguments to html page
