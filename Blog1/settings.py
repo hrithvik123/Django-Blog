@@ -127,7 +127,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-#change crispy_forms template to bootstrap 4
+# change crispy_forms template to bootstrap 4
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = 'blog-home'
@@ -141,7 +141,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'gadhiyahrithvik@gmail.com'
-EMAIL_HOST_PASSWORD = 'nylu@4468'
+EMAIL_HOST_PASSWORD = ''
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
